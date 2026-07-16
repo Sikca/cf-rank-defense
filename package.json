@@ -1,0 +1,17 @@
+{
+  "name": "cf-rank-defense",
+  "version": "2.0.0",
+  "description": "Codeforces 랭크 타워 디펜스 (Render + Neon)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "pg": "^8.12.0",
+    "compression": "^1.7.4"
+  }
+}

@@ -1,0 +1,3 @@
+# 로컬 테스트 데이터 (dev 토큰 포함) — 절대 커밋 금지
+data.json
+node_modules/

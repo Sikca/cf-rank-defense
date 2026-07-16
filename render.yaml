@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cf-rank-defense
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        sync: false
